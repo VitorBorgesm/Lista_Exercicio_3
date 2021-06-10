@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class App {
+ public static void main(String[] args) throws Exception {
+  String nome;
+        int numero;
+        Scanner sc = new Scanner(System.in);
+        
+        System.out.print("Digite um nome: ");
+        nome = sc.next();
+        
+        
+        System.out.print("Digite um número: ");
+        numero = sc.nextInt();
+        
+        for (int i = 1; i <= numero; i++){            
+            System.out.println(nome);
+        }   
+sc.close();
+ }    
+}
+
