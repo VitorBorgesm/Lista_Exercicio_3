@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class App {
+ public static void main(String[] args) throws Exception {
+  int soma = 0, idade;
+      Scanner sc = new Scanner(System.in);   
+            
+      for(int i = 0; i < 20;i++){
+        System.out.print("Digite uma idade: ");
+        idade = sc.nextInt();        
+        soma = soma + idade;
+      } 
+      System.out.println("Soma: " + soma);
+
+sc.close();
+ }    
+}
+
