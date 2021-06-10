@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class App {
+ public static void main(String[] args) throws Exception {
+  int soma = 0, numero;
+      Scanner sc = new Scanner(System.in);   
+            
+      for(int i = 0; i < 10;i++){
+        System.out.print("Digite o numero: ");
+        numero = sc.nextInt();        
+        soma = soma + numero;
+      } 
+      System.out.println("Soma: " + soma);
+
+sc.close();
+ }    
+}
