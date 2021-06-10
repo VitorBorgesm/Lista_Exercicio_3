@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class App {
  public static void main(String[] args) throws Exception {
-  int soma = 0, idade, quant = 4;
+  int soma = 0, idade, quant = 20;
       float media;
       Scanner sc = new Scanner(System.in);   
             
